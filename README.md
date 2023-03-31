@@ -2,9 +2,9 @@
 
 ## Contexte :
 
-L’objectif de ce TP est de tout d’abord mettre en place un container docker (ça peut être un server web comme par exemple apache, nginx….) via un fichier docker-compose.yml.
+L’objectif de ce TP est de tout d’abord mettre en place un conteneur docker (ça peut être un server web comme par exemple apache, nginx….) via un fichier docker-compose.yml.
 
-Une fois le container docker créé on va faire en sorte de récupérer les logs de ce container et les placer dans la stack ELK.
+Une fois le conteneur docker créé on va faire en sorte de récupérer les logs de ce container et les placer dans la stack ELK.
 
 ## Démarrage :
 
