@@ -1,17 +1,16 @@
 # ELK_Project
 
-## Contexte :
+## Context :
 
-L’objectif de ce TP est de tout d’abord de mettre en place un conteneur docker (ça peut être un server web comme par exemple apache, nginx….) via un fichier docker-compose.yml.
+The main goal of this Practical work is to put in place a docker container (for example a web server : nginx, apache) using a docker-compose.yml file 
+Once the docker container created, we are going to retrieve the logs inside this container and put it inside the ELK stack.
 
-Une fois le conteneur docker créé on va faire en sorte de récupérer les logs de ce container et de les placer dans la stack ELK.
+## Launch :
 
-## Démarrage :
-
-Vous pouvez lancer les conteneurs docker avec la commande suivante :
+You can launch the docker containers using the following command :
 
 ```bash
 sudo docker-compose up -d 
 ```
 
-Il est maintenant possible d'accéder à l’interface graphique de la stack ELK en tapant localhost:5601 dans la barre de recherche de votre navigateur (Username: elastic, Password: pass@123).
+You're now allowed to access to the graphical interface of the ELK stack Kibana typing localhost:5601 in the Url of your browser (Username: elastic, Password: pass@123).
